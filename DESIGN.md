@@ -26,7 +26,7 @@ To aid in my conception of the coding pathways, I created a flow chart of pathwa
 
 Chart: [Lucid decision map](https://www.lucidchart.com/documents/edit/59dc6c72-3dcc-4b4c-8948-6dfff1e01cfd/0)
 
-![](/Users/kvoss/Desktop/cs50/1-Final Project/Setup.sh decision tree.jpeg)
+![](Setup.sh decision tree.jpeg)
 
 There are always edge cases with every program. The trade off is the time to cover every edge case compared with the user experience (and success) in using the program. For common use cases, it is worth the time to test and specifically code to make sure that the user is successful. For uncommon use cases, or edge cases, it may not be worth the time to make sure that absolutely all users are successful in using your program. For example, if a user is trying to download something but they lose connection to the internet, there are a number of different errors they could reach. It is reasonable for a program of this type, since it is run on the command line, to assume that the user has a certain degree of technical familiarity, which allows them to debug simple issues.
 
